@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Perfumes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Perfumes</h1>
+    </header>
+
+    <section id="filters">
+        <button onclick="filterByCategory('Todos')">Todos</button>
+        <button onclick="filterByCategory('Hombre')">Hombre</button>
+        <button onclick="filterByCategory('Mujer')">Mujer</button>
+        <button onclick="filterByCategory('Niños')">Niños</button>
+        <button onclick="sortByPrice()">Ordenar por Precio</button>
+    </section>
+
+    <section id="product-list">
+        <!-- Los productos se añadirán aquí dinámicamente -->
+    </section>
+
+    <div id="modal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+        <div id="modal-caption"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Tienda de Perfumes</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

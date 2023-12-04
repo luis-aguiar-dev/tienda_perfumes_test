@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Eau d Issey Pour Homme",
+        "brand": "Issey Miyake",
+        "description": "L'Eau d'Issey Pour Homme Eau de Toilette presenta el equilibrio perfecto entre la vitalidad de las notas frescas y la cálida elegancia de las maderas y las especias.",
+        "price": 59.99,
+        "category": "Hombre",
+        "imageUrl": "perfumes/01.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Amor Amor",
+        "brand": "Cacharel",
+        "description": "Amor Amor de Cacharel para mujer es una fragancia cautivadora y seductora que evoca la pasión y el amor apasionado. Con una combinación de notas frutales y florales.",
+        "price": 49.99,
+        "category": "Mujer",
+        "imageUrl": "perfumes/02.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Mickey Mouse",
+        "brand": "Disney",
+        "description": "Dinámica y enérgica, perfecta para los más jóvenes.",
+        "price": 29.99,
+        "category": "Niños",
+        "imageUrl": "perfumes/03.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Princesa Bella",
+        "brand": "Disney",
+        "description": "Dinámica y enérgica, perfecta para los más jóvenes.",
+        "price": 29.99,
+        "category": "Niños",
+        "imageUrl": "perfumes/04.jpg"
+    }
+]
